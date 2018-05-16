@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
 sudo sed -i 's/archive.ubuntu/old-releases.ubuntu/' /etc/apt/sources.list
 sudo apt-get clean
